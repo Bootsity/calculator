@@ -1,0 +1,22 @@
+{
+    "name": "bootsity/calculator",
+    "description": "Package for mathematics calculations",
+    "type": "package",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Pradeep Kumar",
+            "email": "pradeep@bootsity.com",
+            "homepage": "http://bootsity.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Bootsity\\Calculator\\": "src/"
+        }
+    }
+}
